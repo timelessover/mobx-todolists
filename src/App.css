@@ -3,4 +3,18 @@
   width:30%;
   margin: 50px auto;
 }
-
+ul{
+  list-style: none;
+  padding: 0;
+}
+ul li{  
+  width: 30%;
+  margin: 0 auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.current{
+  color:red;
+}
